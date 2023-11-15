@@ -7,3 +7,14 @@
 <button [disabled]="checkedDisabled">Button</button>
 <br/>
 <img [src]="imgSrc" [title]="imgTitle" [alt]="imgTitle">
+<hr>
+<h1>Event Binding</h1>
+<br/>
+<button (click)="alertaInfo()">Evento</button>
+
+<br/>
+<br/>
+<hr>
+<input [(ngModel)]="nome">
+<p>{{nome}}</p>
+
